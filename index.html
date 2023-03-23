@@ -18,6 +18,21 @@
     <div class="krug">
     </div>
     <div class="container">
+        <section class="top-nav">
+            <div class="navbar__logo">
+                team.flow
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <li class="navbar__item"> <a href="#">Home it Works <img src="./images/multimedia-option 1.svg" alt=""></a> </li>
+                <li class="navbar__item"> <a href="#">product <img src="./images/multimedia-option 1.svg" alt=""></a></li>
+                <li class="navbar__item"> <a href="#">Pricing <img src="./images/multimedia-option 1.svg" alt=""></a> </li>
+                <li class="navbar__item"> <a href="#">Resources <img src="./images/multimedia-option 1.svg" alt=""></a> </li>
+            </ul>
+        </section>
         <div class="navbar">
             <div class="navbar__logo">team.flow</div>
             <ul class="navbar__list">
@@ -38,10 +53,9 @@
                 <button class="midle__btn">Save 90%</button>
                 <button class="midle__btn2">Get account of $59</button>
             </div>
-
-            <h1 class="midle__boss"><pre class="midle__boss2">      Manage the team <br> everyone wants to be on</pre> </h1>
-            <div class="midle__paragraf"> <pre class="paragraf">Simple platform that lets you master what great managers do best,<br>
-        as develop trust, collaborate, and drive team performance.</pre> </div>
+            <h1 class="midle__boss">Manage the team everyone wants to be on</h1>
+            <div class="midle__paragraf"> <p class="paragraf"> Simple platform that lets you master what great managers do best,<br>
+        as develop trust, collaborate, and drive team performance.</p> </div>
             <div class="email">
                 <input type="text" placeholder="name@yourcompany.com">
                 <button class="email__btn">Try it free</button>
@@ -49,19 +63,19 @@
         </div>
         <div class="big__images">
             <img src="./images/Graph 2 1.png" alt="overview" width="920px" class="big__img">
-            <pre class="big__images_paragraf">TRUSTED BY OVER <strong> 10.000+</strong> WORLD’S BEST TEAMS</pre>
+            <p class="big__images_paragraf">TRUSTED BY OVER <strong> 10.000+</strong> WORLD’S BEST TEAMS</p>
             <div class="big__images_logo">
                 <img src="./images/google-2015a 1.svg" alt="">
                 <img src="./images/airbnb 1.svg" alt="">
                 <img src="./images/Group.svg" alt="">
                 <img src="./images/hubspot 1.svg" alt="">
-                <img src="./images/slack-2 1.svg" alt="">
+                <img class="big__images_logo4" src="./images/slack-2 1.svg" alt="">
             </div>
         </div>
     </div>
     <div class="container2">
         <div class="block__timeline">
-            <div class="block__left_timeline"> <img src="./images/timeline.png" alt=""></div>
+            <div class="block__left_timeline"> <img src="./images/timeline.png" alt="" class="timeline__img"></div>
             <div class="block__right_timeline">
                 <ul>
                     <li class="right__tild"  id="right__title1">
@@ -123,7 +137,7 @@
     <div class="container2">
         <div class="diagramma">
             <div class="left__diagramma">
-                <h2 class="title__diagramma">We work how you <br>
+                <h2 class="title__diagramma">We work how you
                 work everyday</h2>
                 <p class="p__diagramma">Since the easiest things to use actually get used, we adapts to the way your team works – not the other way around.</p>
                 <button class="btn__diagramma">Get started free</button>
@@ -158,13 +172,15 @@
                 <p class="custumer__acc_p" id="acc-3">Developer at Airbnb</p>
             </li>
             </ul>
-            </div>
+        </div>
+    </div>
+        <div class="container__blue">
             <div class="app">
                 <h2 class="app__title">84% of employees who use
-                trust their direct manager</h2>
-                <div class="app__img">
-                 <img src="./images/play market.png" alt="" class="play__market">
-                <img src="./images/apple.png" alt="" class="app__store">   
+                    trust their direct manager</h2>
+                    <div class="app__img">
+                        <img src="./images/play market.png" alt="" class="play__market">
+                        <img src="./images/apple.png" alt="" class="app__store">   
                 </div>
             </div>
         </div>
@@ -195,16 +211,130 @@
                         <li><img src="./images/appstore.svg" alt=""></li>
                     </ul>
             </div>
+            <div class="container">
+                <div class="accordion">
+                    <dl>
+                        <dt><a class="accordionTitle" href="#">Company</a></dt>
+                        <dd class="accordionItem accordionItemCollapsed">
+                        <li>About Us</li>
+                        <li>Blog</li>
+                        <li>Careers</li>
+                        <li>Contact Us</li>
+                        </dd>
+                        <dt><a href="#" class="accordionTitle">Support</a></dt>
+                        <dd class="accordionItem accordionItemCollapsed">
+                            <li>Help Center</li>
+                            <li>Safety Center</li>
+                            <li>Community</li>
+                        </dd>
+                        <dt><a href="#" class="accordionTitle">Legal</a></dt>
+                        <dd class="accordionItem accordionItemCollapsed">
+                            <li>Cookies Policy</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms of Service</li>
+                        </dd>
+                    </dl>
+                </div>
+                <ul class="title__6">
+                    <li class="fluter__header">Install App</li>
+                    <li><img src="./images/plaemarket.svg" alt=""></li>
+                    <li><img src="./images/appstore.svg" alt=""></li>
+                </ul>
+            </div>
             <hr class="fluter__line">
             <div class="fluter__2">
                 <p class="year">© 2020 - All rights reserved</p>
                 <div class="fluter__icon">
-                    <img src="./images/fluter1.svg" alt="">
-                    <img src="./images/fluter2.svg" alt="">
-                    <img src="./images/fluter3.svg" alt="">
-                    <img src="./images/fluter4.svg" alt="">
+                    <img src="./images/fluter1.svg" alt="error">
+                    <img src="./images/fluter2.svg" alt="error">
+                    <img src="./images/fluter3.svg" alt="error">
+                    <img src="./images/fluter4.svg" alt="error">
                 </div>
             </div>
         </div>
+<script type="text/javascript">
+    (function (window) {
+            'use strict';
+            function classReg(className) {
+                return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
+            }
+            var hasClass, addClass, removeClass;
+
+            if ('classList' in document.documentElement) {
+                hasClass = function (elem, c) {
+                    return elem.classList.contains(c);
+                };
+                addClass = function (elem, c) {
+                    elem.classList.add(c);
+                };
+                removeClass = function (elem, c) {
+                    elem.classList.remove(c);
+                };
+            }
+            else {
+                hasClass = function (elem, c) {
+                    return classReg(c).test(elem.className);
+                };
+                addClass = function (elem, c) {
+                    if (!hasClass(elem, c)) {
+                        elem.className = elem.className + ' ' + c;
+                    }
+                };
+                removeClass = function (elem, c) {
+                    elem.className = elem.className.replace(classReg(c), ' ');
+                };
+            }
+
+            function toggleClass(elem, c) {
+                var fn = hasClass(elem, c) ? removeClass : addClass;
+                fn(elem, c);
+            }
+            var classie = {
+                hasClass: hasClass,
+                addClass: addClass,
+                removeClass: removeClass,
+                toggleClass: toggleClass,
+                has: hasClass,
+                add: addClass,
+                remove: removeClass,
+                toggle: toggleClass
+            };
+            if (typeof define === 'function' && define.amd) {
+                define(classie);
+            } else {
+                window.classie = classie;
+            }
+        })(window);
+        var $ = function (selector) {
+            return document.querySelector(selector);
+        }
+        var accordion = $('.accordion');
+        accordion.addEventListener("click", function (e) {
+            e.stopPropagation();
+            e.preventDefault();
+            if (e.target && e.target.nodeName == "A") {
+                var classes = e.target.className.split(" ");
+                if (classes) {
+                    for (var x = 0; x < classes.length; x++) {
+                        if (classes[x] == "accordionTitle") {
+                            var title = e.target;
+                            var content = e.target.parentNode.nextElementSibling;
+                            classie.toggle(title, 'accordionTitleActive');
+                            if (classie.has(content, 'accordionItemCollapsed')) {
+                                if (classie.has(content, 'animateOut')) {
+                                    classie.remove(content, 'animateOut');
+                                }
+                                classie.add(content, 'animateIn');
+                            } else {
+                                classie.remove(content, 'animateIn');
+                                classie.add(content, 'animateOut');
+                            }
+                            classie.toggle(content, 'accordionItemCollapsed');
+                        }
+                    }
+                }
+            }
+        });
+</script>
 </body>
 </html>
